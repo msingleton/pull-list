@@ -1,0 +1,14 @@
+{
+  "name": "pull-list",
+  "version": "0.0.1",
+  "author": "Mike Singleton <mike.c.singleton@gmail.com>",
+  "description": "Command line utility to manage your pull list",
+  "dependencies": {
+    "async": "0.2.x",
+    "underscore": "1.4.x",
+    "winston": "x"
+  },
+  "main": "./lib/pull-list",
+  "bin": {"pull-list": "./bin/pull-list"},
+  "engine": "node 0.10.x"
+}

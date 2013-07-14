@@ -1,0 +1,13 @@
+#!/usr/bin/env node
+
+var path = require('path');
+var fs = require('fs');
+
+var lib = path.join(path.dirname(fs.realpathSync(__filename)), '../lib');
+
+if (process.argv.length == 3) {
+  require(lib + '/pull-list')(process.argv.slice(2));
+} else {
+  console.log('Usage: node pull-list.js filename');
+}
+
