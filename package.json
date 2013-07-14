@@ -2,7 +2,11 @@
   "name": "pull-list",
   "version": "0.0.1",
   "author": "Mike Singleton <mike.c.singleton@gmail.com>",
-  "description": "Command line utility to manage your pull list",
+  "description": "A command line utility to keep track of recently released comics",
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/msingleton/pull-list.git"
+  },
   "dependencies": {
     "async": "0.2.x",
     "underscore": "1.4.x",

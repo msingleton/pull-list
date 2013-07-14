@@ -7,10 +7,11 @@ You'll need to set the environment variable COMICVINE_API_KEY
 which you can get at http://www.comicvine.com/api/
 
 ## Usage
-pull-list takes a text file listing the comics to look up.
+pull-list takes a text file listing the comics to look up. See below for format.
 
 ``` bash
-pull-list filename
+> npm install -g pull-list
+> pull-list filename
 ```
 ## Output
 
